@@ -1,0 +1,538 @@
+.b1
+{
+    position: relative;
+}
+.b1 .btn1
+{
+   width: 230px;
+    height: 60px;
+    position: absolute;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    line-height: 40px;
+    text-align: center
+}
+.b1 .btn1:after ,.b1 .btn1:before
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+}
+.b1 .btn1:after
+{
+    top: -3px;
+    left: -3px;
+    background-color: royalblue;
+}
+.b1 .btn1:before
+{
+   bottom: -3px;
+    right: -3px;
+    background-color: aqua;
+}
+.b1 .btn1:hover:after
+{
+    top: -30px;
+    left: 0px;
+    transform:perspective(1000px)rotateX(80deg);
+}
+.b1 .btn1:hover:before
+{
+    bottom: -30px;
+    right: 0px;
+    transform:perspective(1000px)rotateX(80deg);
+}
+.b1 .btn1:hover
+{
+    color: black;
+}
+
+
+
+
+
+
+.b1 .btn2
+{
+    width: 230px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    top: 100px;
+    font-size: 25px;
+}
+.b1 .btn2:after,.b1 .btn2:before
+{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+}
+
+.b1 .btn2:after
+{
+    top: -3px;
+    left: 10px;
+}
+.b1 .btn2:before
+{
+    bottom: -3px;
+    right: 10px;
+}
+
+.b1 .btn2:hover:after
+{
+    left: 200px;
+}
+.b1 .btn2:hover:before
+{
+    right: 200px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************************/
+.b2
+{
+    position: relative;
+    top: 200px;
+    left: 0px;
+}
+.b2 .btn1
+{
+    width: 230px;
+    height: 60px;
+    position: absolute;
+    font-size: 25px;
+    background-color: blue;
+    color: black;
+    border: 0;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    left: 0px;
+    overflow: hidden;
+}
+.b2 .btn1:after 
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10%;
+    z-index: -1;
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+    background-color: aqua;
+    left: -230px;
+    top: 72px;
+    z-index: 2;
+}
+.b2 .btn1:hover:after
+{
+    left: 0px;
+}
+
+
+
+
+
+
+
+.b2 .btn2
+{
+    width: 230px;
+    height: 60px;
+    position: absolute;
+    font-size: 25px;
+    background-color: skyblue;
+    color: black;
+    border: 0;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    left: 300px;
+    overflow: hidden;
+    border: 2px solid blue;
+}
+.b2 .btn2 p
+{
+ z-index: 10;
+    color: black;
+    position: relative;
+    top: -20px
+}
+.b2 .btn2:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    top: 0px;
+    left: -50%;
+    transition: all 0.1s ease-in-out;
+}
+.b2 .btn2:before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    top: 0px;
+    right: -50%;
+    transition: all 0.1s ease-in-out;
+}
+.b2 .btn2:hover:after
+{
+    left: 0%;
+}
+.b2 .btn2:hover:before
+{
+    right: 0%;
+}
+
+
+
+
+
+
+
+
+
+/*******************************************************************/
+.b3
+{
+    position: relative;
+    top: 50%;
+}
+.b3 .btn1
+{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: skyblue;
+    border-radius: 6px;
+    text-align: center;
+    overflow: hidden;
+}
+.b3 .btn1 h4
+{
+    z-index: 3;
+    position: relative;
+    top: -10px;
+}
+.b3 .btn1:before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: rebeccapurple;
+    width: 25px;
+    height: 100%;
+    transform: skew(-35deg);
+    top: 0px;
+    z-index: 2;
+    left: -38px;
+    transition: all 0.5s ease-in-out;
+}
+.b3 .btn1:hover:before
+{
+    left: 120%;
+}
+
+
+
+
+
+
+
+
+.b3 .btn2
+{
+    width: 230px;
+    height: 60px;
+    background-color: skyblue;
+    position: absolute;
+    text-align: center;
+    border: 3px solid blue;
+    overflow: hidden;
+}
+.b3 .btn2 h4
+{
+    position: relative;
+    z-index: 3;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.b3 .btn2:before
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    transform: skew(50deg);
+    transition: all 0.5s ease-in-out;
+    left: -198px;
+}
+.b3 .btn2:after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+     transform: skew(50deg);
+    transition: all 0.5s ease-in-out;
+    top: 0px;
+    right: -198px;
+}
+.b3 .btn2:hover:before
+{
+    left: 0px;
+}
+.b3 .btn2:hover:after
+{
+    right: 0px;
+}
+
+
+
+
+
+.b3 .btn3
+{
+    width: 230px;
+    height: 60px;
+    background-color: skyblue;
+    position: absolute;
+    text-align: center;
+    border: 3px solid blue;
+    overflow: hidden;
+}
+
+.b3 .btn3 h4
+{
+    position: relative;
+    z-index: 3;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.b3 .btn3:after
+{
+    content: "";
+    display: block;
+    z-index: 2;
+    width: 40px;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    left: -45px;
+    
+}
+.b3 .btn3:hover:after
+{
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    top: 0px;
+    left: 0;
+    transform: translate(50%);
+}
+
+
+
+
+
+
+
+.b3 .btn4
+{
+    position: absolute;
+    width: 230px;
+    height: 60px;
+    border: 2px solid blue;
+    text-align: center;
+    overflow: hidden;
+}
+.b3 .btn4 h4
+{
+    z-index: 3;
+    position: relative;
+    font-size: 25px;
+    top: -20px;
+}
+.b3 .btn4:after ,.b3 .btn4:before
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+    position: absolute;
+    left: 300px;
+     transition: all 0.4s ease;
+}
+.b3 .btn4:after
+{
+    top: 0px;
+}
+.b3 .btn4:before
+{
+    bottom: 0px;
+}
+.b3 .btn4 span:after ,.b3 .btn4 span:before
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+    position: absolute;
+   left: 300px;
+    transition: all 0.4s ease;
+}
+.b3 .btn4 span:after
+{
+    top: 25%;
+}
+.b3 .btn4 span:before
+{
+    bottom: 25%;
+}
+.b3 .btn4:hover:after
+{
+    left: 0px;
+}
+.b3 .btn4 span:hover:after
+{
+    left: 0px;
+    transition-delay: 0.1s;
+}
+.b3 .btn4 span:hover:before
+{
+    left: 0px;
+    transition-delay: 0.2s
+}
+.b3 .btn4:hover:before
+{
+    left: 0px;
+    transition-delay: 0.3s
+}
+
+
+
+
+
+
+
+
+
+.b3 .btn5
+{
+    position: absolute;
+    width: 230px;
+    height: 60px;
+    border: 2px solid blue;
+    text-align: center;
+    overflow: hidden;
+}
+.b3 .btn5 h4
+{
+    z-index: 3;
+    position: relative;
+    font-size: 25px;
+    top: -20px;
+}
+.b3 .btn5:after ,.b3 .btn5:before
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+    position: absolute;
+     transition: all 0.4s ease;
+}
+.b3 .btn5:after
+{
+    top: 0px;
+    left: 300px;
+}
+.b3 .btn5:before
+{
+    bottom: 0px;
+    right: 300px;
+}
+.b3 .btn5 span:after ,.b3 .btn5 span:before
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+    position: absolute;
+    transition: all 0.4s ease;
+}
+.b3 .btn5 span:after
+{
+    top: 25%;
+    right: 300px;
+
+}
+.b3 .btn5 span:before
+{
+    bottom: 25%;
+    left: 300px;
+}
+.b3 .btn5:hover:after
+{
+    left: 0px;
+}
+.b3 .btn5 span:hover:after
+{
+    right: 0px;
+}
+.b3 .btn5 span:hover:before
+{
+    left: 0px;
+}
+.b3 .btn5:hover:before
+{
+    right: 0px;
+}
